@@ -1,0 +1,65 @@
+Flowchart
+
+1. User inputs the text, or an image, or a pdf ( There's a feature of speech to text )
+
+2. The code outputs a summary of the given text
+
+3. There's a feature of text-to-speech
+
+4. the program asks the user if they have any query related to the whole text
+
+5. If yes the user inputs the query, again s-t-t available
+
+6. the program answers all the questions based on the users given text which has very high relevancy
+
+7. The user can add Feedback according to their experience with the output and the relevance of the data provided by the code.
+
+Note: We can add Multilingual Support
+      We will make a good UI (thinking of a webapp as well as GUI version)
+      we will ensure Security and Privacy: Ensure that user data is handled securely, with features like end-to-end encryption and data anonymization.
+      We can make it available at offline mode for at least for certain features like speech-to-text and text-to-speech, making it more versatile.
+      
+*** This might be difficult but we can add personalization to allow the model to learn user preferences over time to provide more tailored responses.
+*** Web search: jaise ki answer agr article m nhi hh ques ka toh web search krana hh gpt ki tarah.
+
+Additional stand-alone features
+
+1. Sentiment Analysis
+
+	Description: Analyze the input text to determine the sentiment (positive, negative, neutral).
+	Use Case: Provides users with insights into the emotional tone of the text, which can be useful for feedback, reviews, or any text where sentiment 	matters.
+
+2. Named Entity Recognition (NER)
+
+	Description: Identify and categorize entities in the text such as names of people, organizations, locations, dates, etc.
+	Use Case: Useful for extracting key information from documents, resumes, or articles.
+
+3. Text Translation
+
+	Description: Translate the input text to a different language.
+	Use Case: Makes the application accessible to non-native speakers and useful in multilingual environments.
+
+4. Grammar and Style Correction
+
+	Description: Check and correct grammar, spelling, and style issues in the input text.
+	Use Case: Enhances the quality of written content, making it more professional and polished.
+
+5. Keyword Extraction
+
+	Description: Identify and extract key terms and phrases from the input text.
+	Use Case: Useful for SEO purposes, content tagging, and summarizing the main topics of the text.
+
+6. Topic Modeling
+
+	Description: Identify topics within a large corpus of text.
+	Use Case: Useful for discovering hidden themes in documents, such as research papers, social media posts, or customer feedback.
+
+7. Topic Modeling
+
+	Description: Identify topics within a large corpus of text.
+	Use Case: Useful for discovering hidden themes in documents, such as research papers, social media posts, or customer feedback.
+
+8. Text Extraction from Images (OCR)
+
+	Description: Extract and process text from images or scanned documents using Optical Character Recognition (OCR).
+	Use Case: Useful for digitizing printed documents, extracting text from screenshots, or processing handwritten notes.

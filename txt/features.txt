@@ -1,0 +1,36 @@
+final features
+
+1. speech-to-text  --  done
+
+2. pdf reading  --  done
+
+3. image ocr  --  done
+
+4. text summarization  --  done
+
+5. text-to-speech --  done
+
+6. Query Handling and Answering  --  done
+
+***  7. Multilingual Support  --  no result  --
+
+8. Security and Privacy
+
+9. Sentiment Analysis
+
+10. Named Entity Recognition ( already applied )
+
+11. Text Translation:
+
+12. Grammar and Style Correction
+
+13. Keyword Extraction
+
+14. Topic Modeling: this is imp as we can create a index type format for the input text
+# ye topic modeling ka kya scene hh oe??
+
+15. pdf ocr 
+
+
+*** Personalization:        would require lots of data tuning and model training
+*** Offline availability:   many modules would have to be changed so we can implement this in GUI version

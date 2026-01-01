@@ -1,0 +1,24 @@
+steps of XLM-R
+
+1. Text Data
+	Cleaning 			
+	Tokenization... done -- did tokenization for three models for the purpose of summary and QnA -- BART, BERT, XLM-Roberta
+
+2. Initialize Tokenizer
+	Tokenize Text... done
+
+3. Load Pre-trained Model  -- used three models initially BERT, BART, XLM-R (Robustly Optimized BERT Pre-training Approach)
+
+4. Fine-tuning(if needed)
+	Prepare Dataset: https://www.kaggle.com/code/parthdande/twitter-sentiment-analysis  --  https://www.kaggle.com/datasets/i191796majid/tweets
+	Training Loop
+
+5. Model Inference
+	Prepare Input
+	Make Predictions
+
+6. Post-processing
+	Interpret Results
+	Evaluate
+
+*** references -- https://www.kaggle.com/code/theamitnikhade/question-answering-starter-roberta  --  Kaggle code on hindi and Sanskrit QnA

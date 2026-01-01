@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Multi-format Input QA System</h1>
+<form action="{{ url_for('process_pdf') }}" method="post" enctype="multipart/form-data">
+    <label for="pdf">Upload PDF:</label>
+    <input type="file" name="pdf" id="pdf">
+    <button type="submit">Extract Text</button>
+</form>
+
+<div id="extracted_text">
+    <!-- Extracted text will be displayed here -->
+</div>
+
+<form action="{{ url_for('summarize') }}" method="post">
+    <label for="text">Text:</label>
+    <textarea name="text" id="text" rows="5"></textarea>
+    <button type="submit">Summarize</button>
+</form>
+
+<div id="summary">
+    <!-- Summary will be displayed here -->
+</div>
+
+<form action="{{ url_for('translate') }}" method="post">
+    <label for="text">Text:</label>
+    <textarea name="text" id="text" rows="5"></textarea>
+    <label for="src_lang">Source Language:</label>
+    <input type="text" name="src_lang" id="src_lang">
+    <label for="tgt_lang">Target Language:</label>
+    <input type="text" name="tgt_lang" id="tgt_lang">
+    <button type="submit">Translate</button>
+</form>
+
+<div id="translated_text">
+    <!-- Translated text will be displayed here -->
+</div>
+
+<form action="{{ url_for('ask_question') }}" method="post">
+    <label for="text">Text:</label>
+    <textarea name="text" id="text" rows="5"></textarea>
+    <label for="question">Question:</label>
+    <input type="text" name="question" id="question">
+    <button type="submit">Get Answer</button>
+</form>
+
+<div id="answer">
+    <!-- Answer will be displayed here -->
+</div>
+
+<form action="{{ url_for('convert_text_to_speech') }}" method="post">
+    <label for="text">Text:</label>
+    <textarea name="text" id="text" rows="5"></textarea>
+    <button type="submit">Convert to Speech</button>
+</form>
+
+<div id="audio">
+    <!-- Audio file link will be displayed here -->
+</div>
+
+<form action="{{ url_for('convert_speech_to_text') }}" method="post" enctype="multipart/form-data">
+    <label for="audio">Upload Audio:</label>
+    <input type="file" name="audio" id="audio">
+    <button type="submit">Convert to Text</button>
+</form>
+
+<div id="speech_text">
+    <!-- Converted speech to text will be displayed here -->
+</div>
+{% endblock %}
